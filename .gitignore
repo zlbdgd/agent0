@@ -1,0 +1,28 @@
+# Altium Designer temporary and backup directories
+**/History/
+**/__Previews/
+**/Project Logs for */
+**/Project Outputs for */
+**/*.Cam
+
+# Altium report and compiler outputs
+**/*.drc
+**/*.htm
+**/*.html
+**/*.DRR
+**/*.REP
+**/*.LDP
+**/*.apr
+**/*.EXTREP
+**/*.APR_LIB
+**/Status Report.Txt
+
+# Exclude large compiled Integrated Library (217MB, exceeds GitHub 100MB hard limit)
+*.IntLib
+
+# Old CAM archive
+FlightController.zip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
